@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <img srcset="Images/doglobster400.jpg 400w, Images/doglobster800.jpg 800w, Images/doglobster.jpg 1920w"
+         sizes="(max-width: 550px) 350px, (max-width: 900px) 800px, 1024px"
+         src="Images/doglobster.jpg"
+         alt="Dog dressed in a lobster hat">
+
+    <picture>
+        <source media="(min-width: 1001px)" srcset="Images/curiouscat.jpg" width="1024">
+        <source media="(max-width: 1000px)" srcset="Images/doglobster800.jpg">
+        <img src="Images/curiouscat.jpg" width="1024" alt="A cat looking curiously at the camera">
+    </picture>
+
+</body>
+</html>
