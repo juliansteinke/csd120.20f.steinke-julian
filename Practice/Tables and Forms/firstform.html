@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+        <p>  
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        </p> 
+        <p>
+       <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="0" max="100" step="2">
+        </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Email comment</legend>
+        <p>
+        <label for="date">Date: </label>
+        <input type="datetime-local" id="date" name="yourdate">
+        </p>
+        <p>
+        <label for="comment">Comment:</label>
+        <input type="text" id="comment" name="comment">
+        </p>
+        <p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        </p>
+      </fieldset>
+      <fieldset>
+          <legend>Favourite Colour</legend>
+          <ul>
+            <li>
+                <label for="colour">Pick a colour: </label>
+                <input type="color" id="colour" name="favecolour">
+            </li>
+          </ul>
+      </fieldset>
+      <p>
+          <label for="fileupload">Upload an image:</label>
+          <input type="file" name="file" id="fileupload" accept="image/*">
+    </p>
+    </form>
+</body>
+</html>
